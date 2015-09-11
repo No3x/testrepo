@@ -36,7 +36,7 @@ module.exports = function (grunt) {
 		  options: {
 			repository: 'No3x/testrepo',
 			release: {
-				tag_name: 'release/<%= pkg.version %>',
+				tag_name: '<%= pkg.version %>',
 				name: 'v<%= pkg.version %>',
 			  body: 'Description of the release'
 			}

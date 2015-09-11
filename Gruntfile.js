@@ -48,6 +48,7 @@ module.exports = function (grunt) {
     });
 
     //load modules
+	grunt.loadNpmTasks( 'grunt-prompt' );  
     grunt.loadNpmTasks( 'grunt-text-replace' );  
 	grunt.loadNpmTasks( 'grunt-github-releaser' );
 	

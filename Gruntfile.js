@@ -35,6 +35,7 @@ module.exports = function (grunt) {
 		 'github-release': {
 		  options: {
 			repository: 'No3x/testrepo',
+			auth: grunt.file.readJSON( 'credentials.json' ),
 			release: {
 				tag_name: '<%= pkg.version %>',
 				name: 'v<%= pkg.version %>',
@@ -53,7 +54,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks( 'grunt-github-releaser' );
 	
     //register default task
-    grunt.registerTask( 'release', [ 'prompt', 'replace:core_file', 'github-release' ] );
+    grunt.registerTask( 'release', [ 'replace:core_file', 'github-release' ] );
 
 
 };

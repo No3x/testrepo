@@ -1,6 +1,6 @@
 {
   "name": "testrepo",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "testrepo",
   "main": "Gruntfile.js",
   "dependencies": {

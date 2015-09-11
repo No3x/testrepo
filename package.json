@@ -1,0 +1,29 @@
+{
+  "name": "testrepo",
+  "version": "0.0.1",
+  "description": "testrepo",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "~0.1.11",
+    "grunt-github-releaser": "^0.1.17",
+    "grunt-prompt": "^1.3.0",
+    "grunt-text-replace": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No3x/testrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/No3x/testrepo/issues"
+  },
+  "homepage": "https://github.com/No3x/testrepo#readme"
+}
